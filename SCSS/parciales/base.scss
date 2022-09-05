@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 20px;
+}
+.nav-link{
+    color: white;
+}
+
+
+footer{
+    background-color: black;
+}
+
+.columnas{
+    column-count:3;
+    column-gap:10px;
+    column-rule: 2px solid gray;
+    list-style: none;
+}
+
+.columnas li a {
+    text-decoration: none;
+    color: white;
+}
