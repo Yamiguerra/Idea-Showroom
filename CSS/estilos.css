@@ -12,10 +12,6 @@ header {
   color: white;
 }
 
-.dropdown {
-  content: none;
-}
-
 footer {
   background-color: black;
 }
@@ -75,22 +71,28 @@ footer {
 */
 .container {
   display: grid;
-  grid-template-columns: 1.2fr 1.2fr 1.2fr;
-  grid-template-rows: 0.5fr;
+  grid-template-columns: 1.2fr, 1.2fr, 1.2fr;
+  grid-template-rows: 1.5fr;
   gap: 0px 0px;
-  grid-template-areas: "1 2 3";
+  grid-template-areas: "img1 img2 img3";
 }
 
 .imagen_makeup1 {
-  grid-area: 1;
+  grid-area: img1;
+  width: "400px";
+  height: "400px";
 }
 
 .imagen_makeup2 {
-  grid-area: 2;
+  grid-area: img2;
+  width: "400px";
+  height: "400px";
 }
 
 .imagen_makeup3 {
-  grid-area: 3;
+  grid-area: img3;
+  width: "400px";
+  height: "400px";
 }
 
 .button-container {
